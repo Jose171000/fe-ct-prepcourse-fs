@@ -4,7 +4,7 @@
 function devolverString(string) {
    // Debe retornar un string.
    // Tu código:
-   console.log("hola");
+   return string;
 }
 
 // ⛔️ "X" e "Y" son números.
@@ -12,7 +12,7 @@ function devolverString(string) {
 function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
-   console.log(x+y);
+   return x+y;
 }
 
 function resta(x, y) {
