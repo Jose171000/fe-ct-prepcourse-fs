@@ -71,7 +71,7 @@ function esVocal(letra) {
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
    var vocal = "a"||"e"||"i"||"o"||"u";
-   if (letra === vocal){
+   if (letra === vocal && letra.length <2){
       return "Es vocal";
    } else {
       return "Dato incorrecto";
