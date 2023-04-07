@@ -71,7 +71,7 @@ function filter(arrayOfStrings) {
    // });
    // return newWord;
    var newWord = [];
-   for(var lok of arrayOfStrings){
+   for(var lok of arrayOfStrings){ //convierte a los elementos (string) del arreglo madre en otros arreglos y analiza el elemento del índice 0.
       if(lok[0]==='a'){
          newWord.push(lok);
       };
